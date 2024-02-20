@@ -1,5 +1,5 @@
 {
-  "name": "instructor_411_wk5_day1_mapstatetoprops",
+  "name": "Redux-Dashboard-Pt.2---MDTP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "react-redux": "^7.1.0",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
+    "react-scripts": "5.0.1",
     "redux": "^4.0.4"
   },
   "scripts": {
