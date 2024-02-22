@@ -31,7 +31,9 @@ class AddCar extends Component {
         delete payload.open
         console.log("THE CAR", payload)
         // add this.props.addCar function here
+        this.props.addACar(payload)
         // also add this.setState to close the dialog
+        this.setState({open: false})
     }
 
     componentDidUpdate = (prevProps, prevState) => {
@@ -46,6 +48,7 @@ class AddCar extends Component {
     }
 
     render() {
+        console.log(this.props)
         return (
             <Fragment>
                 <div style={{ textAlign: 'center' }}>
