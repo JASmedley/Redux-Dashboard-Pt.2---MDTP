@@ -11,8 +11,6 @@ import DeleteIcon from '@mui/icons-material/Delete'
 import Chart from './Chart'
 import Total from './Total'
 import AddCar from '../containers/AddCar'
-import {removeCar} from '../containers/Dashboard'
-
 
  
 const Dashboard = (props) => {
@@ -48,7 +46,7 @@ const Dashboard = (props) => {
                         <TableCell>
                             <DeleteIcon
                                 // add onClick method here
-                                onClick = {props.removeCar(idx)}
+                                onClick={() => props.removeCar(idx)}
                                 className="icon text-red" />
                         </TableCell>
                     </TableRow>
